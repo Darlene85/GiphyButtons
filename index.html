@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enjoyable GIFs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+    <br>
+    <div class="row">
+        <div class="col-sm-12">
+            <button data-type="dancing" class="gifBtn btn-warning" data-state="still">dancing</button>
+            <button data-type="hiking" class="gifBtn btn-warning" data-state="still">hiking</button>
+            <button data-type="reading" class="gifBtn btn-warning" data-state="still">reading</button>
+            <button data-type="coding" class="gifBtn btn-warning" data-state="still">coding</button>
+            <button data-type="learning" class="gifBtn btn-warning" data-state="still">learning</button>
+            <button data-type="teaching" class="gifBtn btn-warning" data-state="still">teaching</button>
+            <button data-type="volleyball" class="gifBtn btn-warning" data-state="still">volleyball</button>
+            <button data-type="basketball" class="gifBtn btn-warning" data-state="still">basketball</button>
+            <button data-type="concerts" class="gifBtn btn-warning" data-state="still">concerts</button>
+            <button data-type="traveling" class="gifBtn btn-warning" data-state="still">traveling</button>
+            <button data-type="laughing" class="gifBtn btn-warning" data-state="still">laughing</button>
+            <button data-type="shopping" class="gifBtn btn-warning" data-state="still">shopping</button>
+            <button data-type="movies" class="gifBtn btn-warning" data-state="still">movies</button>
+            <button data-type="food" class="gifBtn btn-warning" data-state="still">food</button>
+            <button data-type="animal" class="gifBtn btn-warning" data-state="still">animal gifs</button>
+        </div>
+    </div>
+    <div id="gifs"></div>
+    <div>
+        <p></p>
+    </div>
+    <div id="buttons-view"></div>
+
+    <form id="topics-form">
+      <label for="topic-input">What Do You Enjoy?</label>
+      <input type="text" id="topic-input">
+      <input id="add-topic" type="submit" value="add">
+    </form>
+
+      <br>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="gif.js"></script>
+
+</html>
